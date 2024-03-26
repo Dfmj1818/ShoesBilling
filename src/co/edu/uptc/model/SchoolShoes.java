@@ -1,5 +1,5 @@
 package co.edu.uptc.model;
 
-public class SchoolShoes {
+public class SchoolShoes extends Shoes{
 
 }

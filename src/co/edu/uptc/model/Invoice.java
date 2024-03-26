@@ -2,11 +2,11 @@ package co.edu.uptc.model;
 
 public class Invoice {
 	private int pairsPurchased;
-    private String brand;
-    
-    public Invoice() {
-    	
-    }
+	private String brand;
+
+	public Invoice() {
+
+	}
 
 	public int getPairsPurchased() {
 		return pairsPurchased;
@@ -23,7 +23,7 @@ public class Invoice {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-    
+
 	@Override
 	public String toString() {
 		StringBuilder invoiceInformation = new StringBuilder();
@@ -32,5 +32,5 @@ public class Invoice {
 		.append("Marca De los zapatos: ").append(getBrand());
 		return invoiceInformation.toString();
 	}
-    
+
 }
